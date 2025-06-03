@@ -25,7 +25,7 @@ CREATE TABLE amazon_products(
 	price FLOAT,
 	listprice FLOAT,
 	category_id NUMERIC,
-	isBestSeller TEXT,
+	isBestSeller BOOLEAN,
 	boughtInLastMonth NUMERIC
 );
 
